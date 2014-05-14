@@ -1,0 +1,32 @@
+html, body
+{
+	background-color:#333333;
+}
+
+h1
+{
+	color:#14181C;
+	text-align:center;
+}
+
+a
+{
+	color:#FFFFFF;
+	text-align: center;
+	text-decoration:none;
+	font-size:20px;
+	display: block;
+	height: 40px;
+	width: 150px;
+	border-style:solid;
+	border-width:1px;
+	margin: 0 auto;
+}
+
+a:hover 
+{
+	color:#FFFFFF;
+	text-decoration:none; 
+	cursor:pointer;
+	font-size:20px;
+}
