@@ -12,7 +12,7 @@
     <title>Store Site</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/theme.css" rel="stylesheet">
@@ -32,14 +32,94 @@
     <div class="container">
 
       <div class="masthead">
-        <img data-src="holder.js/200x100" alt="...">
+        <img data-src="holder.js/250x100" alt="...">
         <ul class="nav nav-justified">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Vitamins</a></li>
+              <li><a href="#">Herbal</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Supplements</a></li>
+            </ul>
+          </li>
           <li><a href="#">Contact</a></li>
           <li><a href="#">About Us</a></li>
         </ul>
       </div>
+      
+      <br></br>
+
+      <div class="main">
+        <div class="row">
+          
+          <div class="col-md-2">
+            <input class="form-control" type="search" placeholder="Search" />
+            <span class="glyphicon glyphicon-search"></span>
+            <h3>Vitamins</h3>
+            <img data-src="holder.js/100x150" alt="...">
+            <h3>Herbal</h3>
+            <img data-src="holder.js/100x150" alt="...">
+            <h3>Sports</h3>
+            <img data-src="holder.js/100x150" alt="...">
+            <h3>Supplements</h3>
+            <img data-src="holder.js/100x150" alt="...">
+          </div>
+          
+          <div class="col-md-3">
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+          </div>
+
+          <div class="col-md-3">
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+          </div>
+
+          <div class="col-md-3">
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+            <br></br>
+            <br></br>
+            <br></br>
+            <img data-src="holder.js/150x150" alt="...">
+          </div>
+
+
+        </div>
+      </div>
+
+
 
       <!-- Site footer -->
       <div class="footer">
@@ -52,7 +132,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+  
     <script src="js/holder.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript"> $(document).ready(function () { $('.dropdown-toggle').dropdown(); }); </script>
 
   </body>
 </html>

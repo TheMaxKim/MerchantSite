@@ -86,3 +86,34 @@ body {
     padding-left: 0;
   }
 }
+
+.form-control {
+  padding-right: 30px;
+}
+
+.form-control + .glyphicon {
+  position: absolute;
+  right: 0;
+  padding: 8px 27px;
+}
+
+.dropdown-menu {
+  width: 100%; 
+}
+
+.btn{
+ width: 100%;
+}
+
+.main {
+  text-align: center;
+}
+
+.col-md-3 {
+  text-align: right;
+}
+
+li{
+    display:table;
+    margin:0px auto 0px auto;
+}
