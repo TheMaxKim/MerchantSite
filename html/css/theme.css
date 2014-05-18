@@ -23,7 +23,7 @@ body {
 
 .nav-justified {
   background-color: #eee;*/
-  border: 1px hidden #ccc;
+  border: 2px solid #cccccc;
   border-radius: 5px;
 }
 .nav-justified > li > a {
@@ -97,7 +97,7 @@ body {
 .form-control + .glyphicon {
   position: absolute;
   right: 0;
-  padding: 8px 27px;
+  padding: 23px 27px;
 }
 
 .dropdown-menu {
@@ -111,7 +111,13 @@ body {
 .main {
   text-align: center;
 }
-
+.col-md-2 {
+  border:2px solid #cccccc;
+  margin-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius:5px;
+}
 .col-md-3 {
   text-align: right;
 }
